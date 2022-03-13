@@ -50,14 +50,12 @@
       </div>
     </div>
     
-    <!-- ボタン -->
     <button type="button" class="btn btn-outline-secondary me-3">
       <nuxt-link to="/">ホームへ</nuxt-link>
     </button>
     
     <button @click="switchEditModeAction" class="btn btn-outline-info">Edit Mode</button>
     
-    <!-- 編集ブロック -->
     <div v-show="$store.state.isEdit" class="mt-5">
       <form class="input-group form-inline mb-3 d-block">
         <label class="h6 d-block" for="bookTitle">Title</label>
