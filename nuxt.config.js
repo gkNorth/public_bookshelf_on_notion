@@ -1,6 +1,6 @@
 export default {
   head: {
-    title: 'notion-app',
+    title: 'Bookshelf on Notion',
     htmlAttrs: {
       lang: 'en'
     },
